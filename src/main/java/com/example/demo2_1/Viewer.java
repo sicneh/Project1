@@ -1,9 +1,12 @@
 package com.example.demo2_1;
 
+import java.util.ArrayList;
+
 public class Viewer {
     private String name;
     private int age;
-    private int count;
+    private int count = this.s.size();
+    private ArrayList<Cinema> s;
 
     public int getAge(){
         return this.age;
